@@ -46,11 +46,11 @@
 
 import Link from 'next/link';
 import posts from '../public/posts.json';
-import { useTheme } from './theme';
+
 import { Card, CardContent, CardActions, Button, Box, Typography } from '@mui/material';
 
 export default function Home() {
- 
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center" padding={2}>
