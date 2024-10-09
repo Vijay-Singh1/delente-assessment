@@ -1,0 +1,19 @@
+/**
+ * Product.module.css
+ *
+ * @format
+ */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%; /* Ensures full width */
+  height: 100%; /* Ensure all cards are the same height */
+  transition: transform 0.2s; /* Smooth hover effect */
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge card on hover */
+}
