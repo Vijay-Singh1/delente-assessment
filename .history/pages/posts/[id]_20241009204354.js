@@ -35,9 +35,6 @@ export default function Post({ post }) {
               {post.title}
             </Typography>
             <Typography variant="body1" color="text.secondary">
-              {post.author}
-            </Typography>
-            <Typography variant="body1" color="text.secondary">
               {post.content}
             </Typography>
           </CardContent>

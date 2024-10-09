@@ -20,10 +20,10 @@ export default function Products({ products }) {
       <h1>Products</h1>
       <Box
         display="flex"
-        flexDirection="row" 
-        flexWrap="wrap" 
-        justifyContent="center" 
-        gap={2} 
+        flexDirection="row" // Align items in a row
+        flexWrap="wrap" // Allow items to wrap into new rows
+        justifyContent="center" // Center items horizontally in each row
+        gap={2} // Space between cards
       >
         {products.map(product => (
           <Link href={`/products/${product.id}`} passHref key={product.id}>

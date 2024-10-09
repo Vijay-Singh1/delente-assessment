@@ -16,7 +16,7 @@ export default function Navbar() {
                     <Link href="/users" style={{ margin: '0 10px', color: 'white', textDecoration: 'none' }}>Users</Link>
                     <Link href="/counter" style={{ margin: '0 10px', color: 'white', textDecoration: 'none' }}>Counter</Link>
                     <Link href="/todos" style={{ margin: '0 10px', color: 'white', textDecoration: 'none' }}>Todos</Link>
-                    <Link href="/tsUsers" style={{ margin: '0 10px', color: 'white', textDecoration: 'none' }}>Typed Users</Link>
+                    <Link href="/posts" style={{ margin: '0 10px', color: 'white', textDecoration: 'none' }}>Typed Users</Link>
                     <Link href="/posts" style={{ margin: '0 10px', color: 'white', textDecoration: 'none' }}>Posts</Link>
                 </Typography>
                 <IconButton
