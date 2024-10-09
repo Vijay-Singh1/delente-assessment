@@ -1,0 +1,19 @@
+/**
+ * Product.module.cs
+ *
+ * @format
+ */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%; 
+  height: 100%; 
+  transition: transform 0.2s; 
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
