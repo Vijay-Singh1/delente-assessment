@@ -7,7 +7,7 @@ export default function Home() {
   const { theme } = useTheme();
 
   return (
-    <Box display="flex" flexDirection="column" alignItems="center" padding={4 } width={"100vw"}>
+    <Box display="flex" flexDirection="column" alignItems="center" padding={4 }>
       <Typography variant="h3" gutterBottom>
         Blog Posts
       </Typography>

@@ -8,7 +8,7 @@ export default function Navbar() {
     const { theme, toggleTheme } = useTheme();
 
     return (
-        <AppBar position="static" sx={{ backgroundColor: theme === 'light' ? '#0972D3' : 'black', borderBottom : "1px solid lightGray",  }}>
+        <AppBar position="static" sx={{ backgroundColor: theme === 'light' ? '#0972D3' : 'black', borderBottom : "1px solid lightGray", width : "100vw" }}>
             <Toolbar>
                 <Typography  component="div" sx={{ flexGrow: 1 }}>
                     <Link href="/" style={{ margin: '0 10px', color: 'white', textDecoration: 'none' }}>Home</Link>
