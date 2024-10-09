@@ -1,6 +1,6 @@
-import { ThemeProvider } from '../contexts/theme';
 import '../styles/global.css';
 import Navbar from './navbar';
+import { ThemeProvider } from './theme';
 
 function MyApp({ Component, pageProps }) {
     return <ThemeProvider>

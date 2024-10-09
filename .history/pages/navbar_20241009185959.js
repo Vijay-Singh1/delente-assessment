@@ -1,8 +1,8 @@
 
 import Link from 'next/link';
+import { useTheme } from './theme';
 import { AppBar, Toolbar, IconButton, Typography } from '@mui/material';
 import { Brightness4, Brightness7 } from '@mui/icons-material';
-import { useTheme } from '../contexts/theme';
 
 export default function Navbar() {
     const { theme, toggleTheme } = useTheme();
