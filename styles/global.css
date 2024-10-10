@@ -10,7 +10,7 @@ html, body {
   height: 100%;
 }
 
-#root, #__next {
-  width:min-content;
+#root, #__next{
+  width:100vw;
   height: 100%;
 }
